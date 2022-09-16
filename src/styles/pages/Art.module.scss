@@ -1,0 +1,25 @@
+.scoreRow {
+  width: 100%;
+  .scoreWrapper {
+    width: fit-content;
+    display: flex;
+    margin: auto;
+  }
+}
+
+.btnSubmitArt {
+  background-color: blue;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 15rem;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  &.submitted {
+    background-color: yellow;
+    color: black;
+  }
+}
